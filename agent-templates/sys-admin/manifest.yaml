@@ -1,0 +1,19 @@
+agent_name: System Administrator Agent
+description: Specialized agent for system administration tasks, service management, and infrastructure monitoring
+category: sys-admin
+required_tools:
+  - run_command
+  - read_file
+  - write_file
+  - manage_service
+  - get_logs
+  - inspect_system
+system_prompt_path: base_prompt.txt
+permissions:
+  - read_file
+  - write_file
+  - manage_service
+  - get_logs
+  - run_command
+  - inspect_system
+privacy_filter: true

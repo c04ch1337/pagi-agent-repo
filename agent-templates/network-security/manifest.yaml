@@ -1,0 +1,13 @@
+agent_name: Network Security Agent
+description: Specialized agent for network scanning, security analysis, and threat detection
+category: network-security
+required_tools:
+  - run_command
+  - memory_query
+  - read_file
+system_prompt_path: base_prompt.txt
+permissions:
+  - run_command
+  - memory_query
+  - read_file
+privacy_filter: true

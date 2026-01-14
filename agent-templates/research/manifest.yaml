@@ -1,0 +1,13 @@
+agent_name: Research Analyst Agent
+description: Specialized agent for log analysis, data research, and pattern recognition tasks
+category: research
+required_tools:
+  - read_file
+  - memory_query
+  - run_command
+system_prompt_path: base_prompt.txt
+permissions:
+  - read_file
+  - memory_query
+  - run_command
+privacy_filter: true
